@@ -1,10 +1,10 @@
-# Deploying Java Application using AWS Elastic Beanstalk with CI/CD
+# Deploying a Java Application using AWS Elastic Beanstalk with CI/CD
 
-Hello, .....
+Hello, this is a self-paced workshop to deploy a Scalable Java Application using AWS Elastic Beanstalk with continuous deployment enabled by using AWS CodePipeline.
 
 See the diagram below for a depiction of the complete architecture.
 
-<img src="docs/images/diagram-architecture.png" width="100%">
+![Deploying a Java Application using AWS Elastic Beanstalk with CI/CD](docs/images/diagram-architecture.png)
 
 ## AWS Account Required
 
@@ -14,7 +14,7 @@ In order to complete these workshops you'll need a valid active AWS Account with
 
 ## To start
 
-Visit the portal to get started: http://aws-core-services.ws.kabits.com
+Visit the portal to get started: http://aws-java-beanstalk-with-ci-cd.ws.kabits.com
 
 ## Modules
 
