@@ -1,0 +1,71 @@
+# Project information
+
+site_name: Deploying a Java Application using AWS Elastic Beanstalk with CI/CD
+site_description: 
+#site_author: 'beralfon@amazon.com'
+site_url: 'http://aws-java-beanstalk-with-ci-cd.ws.kabits.com'
+
+# Repository
+#repo_name: 'aws-samples/aws-security-workshops'
+repo_url: 'https://github.com/aurbac/aws-java-beanstalk-with-ci-cd'
+
+google_analytics: ['UA-55517703-7', 'aws-java-beanstalk-with-ci-cd.ws.kabits.com']
+
+# Copyright
+copyright: '&copy; 2019 - AURBAC '
+
+extra:
+  social:
+    - type: 'home'
+      link: 'http://aws-java-beanstalk-with-ci-cd.ws.kabits.com'
+    - type: 'twitter'
+      link: 'https://twitter.com/aurbac'
+
+nav:
+    - Home: index.md
+    - Preparing your development environment: preparing-your-development-environment.md
+    - Deploying Java Application with AWS Elastic Beanstalk: deploying-java-application.md
+    - Deploying with AWS CodePipeline to AWS Elastic Beanstalk: deploying-with-codepipeline.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'orange'
+    accent: 'orange'
+  logo:
+    icon: 'cloud_done'
+markdown_extensions:
+  - codehilite:
+      linenums: true
+  - admonition
+  - markdown.extensions.admonition
+  - markdown.extensions.sane_lists
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.def_list
+  - markdown.extensions.abbr
+  - markdown.extensions.tables
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.toc:
+      permalink: True
+      separator: "_"
+  - pymdownx.extra
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pyembed.markdown
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
